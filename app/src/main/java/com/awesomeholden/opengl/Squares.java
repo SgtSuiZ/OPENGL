@@ -15,9 +15,9 @@ public class Squares {
     public Vector<Float> verts = new Vector<Float>();
 
     public Vector<Float> colors = new Vector<Float>();
-    private FloatBuffer vertexBuffer;
+    public FloatBuffer vertexBuffer;
 
-    private FloatBuffer colorBuffer;
+    public FloatBuffer colorBuffer;
 
     public void registerVerts(){
         ByteBuffer vbb = ByteBuffer.allocateDirect(verts.size() * 4);
